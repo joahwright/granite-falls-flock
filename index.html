@@ -1,0 +1,1465 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Public records and information about Flock Safety automated license plate readers in Granite Falls, Washington.">
+  <title>What the Records Show | Granite Falls & Flock Safety</title>
+
+  <style>
+    :root{
+      --bg:#11110f;
+      --paper:#f0eee7;
+      --muted:#b8b4aa;
+      --line:#34332f;
+      --accent:#b8533d;
+      --max:1120px;
+    }
+
+    *{box-sizing:border-box}
+
+    html{
+      scroll-behavior:smooth;
+      background:var(--bg);
+    }
+
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--paper);
+      font-family:Arial, Helvetica, sans-serif;
+      line-height:1.45;
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    .wrap{
+      width:min(calc(100% - 36px), var(--max));
+      margin:0 auto;
+    }
+
+    header{
+      position:sticky;
+      top:0;
+      z-index:20;
+      background:rgba(17,17,15,.94);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+
+    .nav{
+      min-height:64px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px;
+    }
+
+    .brand{
+      font-size:.78rem;
+      font-weight:800;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+
+    .navlinks{
+      display:flex;
+      gap:18px;
+      font-size:.78rem;
+      font-weight:700;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+
+    .hero{
+      min-height:calc(100vh - 64px);
+      display:grid;
+      align-items:center;
+      border-bottom:1px solid var(--line);
+      overflow:hidden;
+    }
+
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:42px;
+      align-items:end;
+      padding:76px 0 64px;
+    }
+
+    .eyebrow{
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.15em;
+      margin-bottom:16px;
+    }
+
+    h1,h2,h3{
+      margin:0;
+      font-family:"Arial Narrow","Helvetica Neue Condensed",Arial,sans-serif;
+      text-transform:uppercase;
+      letter-spacing:-.035em;
+      line-height:.9;
+    }
+
+    h1{
+      font-size:clamp(4.4rem, 11vw, 9.4rem);
+      max-width:9ch;
+    }
+
+    .hero-copy{
+      max-width:620px;
+      margin:28px 0 0;
+      color:var(--muted);
+      font-size:clamp(1rem, 1.4vw, 1.2rem);
+    }
+
+    .hero-copy strong{
+      color:var(--paper);
+    }
+
+    .hero-side{
+      display:flex;
+      flex-direction:column;
+      gap:16px;
+      align-self:end;
+    }
+
+    .camera-frame{
+      min-height:420px;
+      border:1px solid var(--line);
+      display:grid;
+      place-items:center;
+      position:relative;
+      overflow:hidden;
+      background:
+        linear-gradient(145deg, transparent 0 68%, rgba(184,83,61,.12) 68% 100%);
+    }
+
+    .camera-frame img{
+      width:100%;
+      height:100%;
+      object-fit:contain;
+      display:block;
+    }
+
+    .camera-placeholder{
+      padding:28px;
+      color:#79766e;
+      font-size:.75rem;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      text-align:center;
+    }
+
+    .camera-note{
+      position:absolute;
+      left:16px;
+      bottom:14px;
+      color:var(--muted);
+      font-size:.7rem;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+
+    .cta-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:30px;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:48px;
+      padding:0 18px;
+      border:1px solid var(--paper);
+      font-size:.76rem;
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+
+    .btn.primary{
+      background:var(--paper);
+      color:var(--bg);
+    }
+
+    .btn.secondary{
+      border-color:var(--line);
+      color:var(--muted);
+    }
+
+    .facts{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      border-bottom:1px solid var(--line);
+    }
+
+    .fact{
+      min-height:190px;
+      padding:34px 28px;
+      border-right:1px solid var(--line);
+    }
+
+    .fact:last-child{border-right:0}
+
+    .fact .num{
+      display:block;
+      font-family:"Arial Narrow","Helvetica Neue Condensed",Arial,sans-serif;
+      font-weight:900;
+      font-size:clamp(3rem,7vw,6rem);
+      line-height:.9;
+      letter-spacing:-.05em;
+    }
+
+    .fact .label{
+      display:block;
+      margin-top:12px;
+      color:var(--muted);
+      font-size:.72rem;
+      text-transform:uppercase;
+      letter-spacing:.1em;
+    }
+
+    section{
+      padding:92px 0;
+      border-bottom:1px solid var(--line);
+    }
+
+    .section-grid{
+      display:grid;
+      grid-template-columns:.75fr 1.25fr;
+      gap:60px;
+    }
+
+    h2{
+      font-size:clamp(2.8rem,6vw,5.6rem);
+      max-width:8ch;
+    }
+
+    .section-copy{
+      max-width:720px;
+    }
+
+    .section-copy p{
+      margin:0 0 22px;
+      color:var(--muted);
+      font-size:1.05rem;
+    }
+
+    .section-copy strong{
+      color:var(--paper);
+    }
+
+    .cap-list{
+      margin-top:34px;
+      border-top:1px solid var(--line);
+    }
+
+    .cap-row{
+      display:grid;
+      grid-template-columns:1fr auto;
+      gap:20px;
+      align-items:center;
+      padding:18px 0;
+      border-bottom:1px solid var(--line);
+    }
+
+    .cap-row span:first-child{
+      font-weight:700;
+    }
+
+    .cap-row span:last-child{
+      color:var(--muted);
+      font-size:.74rem;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+
+    .records{
+      display:grid;
+      gap:12px;
+      margin-top:34px;
+    }
+
+    .record{
+      border:1px solid var(--line);
+      padding:18px;
+      display:grid;
+      grid-template-columns:1fr auto;
+      gap:18px;
+      align-items:center;
+    }
+
+    .record h3{
+      font-size:1.1rem;
+      line-height:1;
+      letter-spacing:-.01em;
+    }
+
+    .record p{
+      margin:8px 0 0;
+      color:var(--muted);
+      font-size:.88rem;
+    }
+
+    .record .link{
+      color:var(--accent);
+      font-size:.72rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+
+    .action{
+      padding:100px 0 120px;
+    }
+
+    .action-box{
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:48px;
+      align-items:end;
+    }
+
+    .action h2{
+      max-width:11ch;
+    }
+
+    .action p{
+      color:var(--muted);
+      max-width:650px;
+      margin:24px 0 0;
+      font-size:1.05rem;
+    }
+
+    footer{
+      padding:28px 0 40px;
+      color:#77736a;
+      font-size:.72rem;
+      text-transform:uppercase;
+      letter-spacing:.07em;
+    }
+
+    @media (max-width:800px){
+      .navlinks{display:none}
+      .hero-grid,
+      .section-grid,
+      .action-box{
+        grid-template-columns:1fr;
+      }
+
+      .hero{
+        min-height:auto;
+      }
+
+      .hero-grid{
+        padding:56px 0 40px;
+      }
+
+      .camera-frame{
+        min-height:300px;
+      }
+
+      .facts{
+        grid-template-columns:1fr;
+      }
+
+      .fact{
+        border-right:0;
+        border-bottom:1px solid var(--line);
+        min-height:auto;
+        padding:28px 18px;
+      }
+
+      .fact:last-child{border-bottom:0}
+
+      section{
+        padding:68px 0;
+      }
+
+      .section-grid{
+        gap:32px;
+      }
+
+      .record{
+        grid-template-columns:1fr;
+      }
+    }
+
+    .evidence-panel{
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-end;
+      align-items:flex-start;
+      padding:34px;
+    }
+
+    .evidence-number{
+      font-family:"Arial Narrow","Helvetica Neue Condensed",Arial,sans-serif;
+      font-size:clamp(3.4rem,6.4vw,6.6rem);
+      font-weight:900;
+      line-height:.7;
+      letter-spacing:-.08em;
+    }
+
+    .evidence-word{
+      margin-top:22px;
+      font-family:"Arial Narrow","Helvetica Neue Condensed",Arial,sans-serif;
+      font-size:clamp(2.4rem,5vw,4.6rem);
+      font-weight:900;
+      line-height:.82;
+      letter-spacing:-.05em;
+    }
+
+    .evidence-rule{
+      width:72px;
+      height:5px;
+      margin:26px 0 18px;
+      background:var(--accent);
+    }
+
+    .evidence-small{
+      color:var(--muted);
+      font-size:.8rem;
+      font-weight:800;
+      line-height:1.4;
+      letter-spacing:.08em;
+    }
+
+    .issue-callout{
+      border-left:4px solid var(--accent);
+      padding:18px 20px;
+      margin:28px 0;
+      background:rgba(184,83,61,.06);
+    }
+
+    .issue-callout strong{
+      display:block;
+      margin-bottom:6px;
+      text-transform:uppercase;
+      letter-spacing:.04em;
+    }
+
+    .source-note{
+      margin-top:10px;
+      color:#817d73;
+      font-size:.76rem;
+    }
+
+    .status-grid{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:12px;
+      margin-top:30px;
+    }
+
+    .status-card{
+      border:1px solid var(--line);
+      padding:22px;
+    }
+
+    .status-card .status{
+      color:var(--accent);
+      font-size:.7rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.1em;
+    }
+
+    .status-card h3{
+      margin-top:10px;
+      font-size:1.35rem;
+      line-height:1;
+    }
+
+    .status-card p{
+      margin:12px 0 0;
+      font-size:.9rem;
+    }
+
+    .source-index{
+      margin-top:30px;
+      border-top:1px solid var(--line);
+    }
+
+    .source-index div{
+      display:grid;
+      grid-template-columns:110px 1fr;
+      gap:18px;
+      padding:15px 0;
+      border-bottom:1px solid var(--line);
+      font-size:.86rem;
+    }
+
+    .source-index b{
+      color:var(--paper);
+      text-transform:uppercase;
+      letter-spacing:.05em;
+      font-size:.72rem;
+    }
+
+    .source-index span{
+      color:var(--muted);
+    }
+
+    .fineprint{
+      color:#817d73 !important;
+      font-size:.82rem !important;
+    }
+
+    @media (max-width:800px){
+      .status-grid{grid-template-columns:1fr}
+      .source-index div{grid-template-columns:1fr;gap:5px}
+      .evidence-panel{min-height:340px}
+    }
+
+
+    .source-index a{
+      display:block;
+    }
+
+    .source-index a:hover span,
+    .source-index a:focus span{
+      color:var(--paper);
+    }
+
+
+    .record > .cta-row{
+      margin-top:0;
+      justify-content:flex-end;
+      align-self:center;
+    }
+
+    @media (max-width:800px){
+      .record > .cta-row{
+        justify-content:flex-start;
+      }
+    }
+
+
+    #private-power .section-grid{
+      grid-template-columns:.95fr 1.05fr;
+    }
+
+    #private-power h2{
+      max-width:12ch;
+      font-size:clamp(2.5rem,5vw,4.8rem);
+      line-height:.92;
+    }
+
+    @media (max-width:800px){
+      #private-power .section-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
+
+    /* August 2026 evidence update */
+    .update-grid{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:12px;
+      margin-top:30px;
+    }
+
+    .update-card{
+      border:1px solid var(--line);
+      padding:22px;
+    }
+
+    .update-card .kicker{
+      color:var(--accent);
+      font-size:.7rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.1em;
+    }
+
+    .update-card h3{
+      margin-top:10px;
+      font-size:1.35rem;
+      line-height:1;
+    }
+
+    .update-card p{
+      margin:12px 0 0;
+      color:var(--muted);
+      font-size:.9rem;
+    }
+
+    .timeline{
+      margin-top:32px;
+      border-top:1px solid var(--line);
+    }
+
+    .timeline-row{
+      display:grid;
+      grid-template-columns:150px 1fr;
+      gap:28px;
+      padding:20px 0;
+      border-bottom:1px solid var(--line);
+    }
+
+    .timeline-date{
+      color:var(--accent);
+      font-size:.75rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+
+    .timeline-row strong{
+      display:block;
+      margin-bottom:5px;
+    }
+
+    .timeline-row p{
+      margin:0;
+      font-size:.94rem;
+    }
+
+    .compare-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
+      margin-top:30px;
+    }
+
+    .compare-card{
+      border:1px solid var(--line);
+      padding:24px;
+    }
+
+    .compare-card h3{
+      font-size:1.2rem;
+      line-height:1;
+      margin-bottom:14px;
+    }
+
+    .compare-card p{
+      margin:0 0 12px;
+      font-size:.92rem;
+    }
+
+    .process{
+      display:grid;
+      grid-template-columns:repeat(5,1fr);
+      margin:30px 0;
+      border:1px solid var(--line);
+    }
+
+    .process-step{
+      min-height:150px;
+      padding:18px;
+      border-right:1px solid var(--line);
+    }
+
+    .process-step:last-child{border-right:0}
+
+    .process-step b{
+      display:block;
+      color:var(--accent);
+      font-size:.68rem;
+      letter-spacing:.09em;
+      text-transform:uppercase;
+      margin-bottom:12px;
+    }
+
+    .process-step strong{
+      display:block;
+      font-size:.92rem;
+      margin-bottom:8px;
+    }
+
+    .process-step span{
+      color:var(--muted);
+      font-size:.78rem;
+      line-height:1.35;
+    }
+
+    .policy-list{
+      margin-top:28px;
+      border-top:1px solid var(--line);
+    }
+
+    .policy-row{
+      display:grid;
+      grid-template-columns:210px 1fr;
+      gap:22px;
+      padding:17px 0;
+      border-bottom:1px solid var(--line);
+    }
+
+    .policy-row b{
+      color:var(--paper);
+      font-size:.76rem;
+      text-transform:uppercase;
+      letter-spacing:.06em;
+    }
+
+    .policy-row span{
+      color:var(--muted);
+      font-size:.9rem;
+    }
+
+    @media (max-width:800px){
+      .update-grid,
+      .compare-grid{grid-template-columns:1fr}
+      .timeline-row,
+      .policy-row{grid-template-columns:1fr;gap:7px}
+      .process{grid-template-columns:1fr}
+      .process-step{border-right:0;border-bottom:1px solid var(--line);min-height:auto}
+      .process-step:last-child{border-bottom:0}
+    }
+
+
+    /* Desktop layout correction: keep oversized section headings inside their grid column. */
+    @media (min-width:801px){
+      .section-grid{
+        grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);
+        gap:48px;
+      }
+
+      .section-grid > *{
+        min-width:0;
+      }
+
+      h2{
+        max-width:100%;
+        font-size:clamp(2.8rem,4.15vw,4.25rem);
+        line-height:.92;
+      }
+
+      #compliance h2{
+        font-size:clamp(2.7rem,3.9vw,4rem);
+      }
+
+      #private-power .section-grid{
+        grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);
+      }
+
+      #private-power h2{
+        max-width:100%;
+        font-size:clamp(2.7rem,3.9vw,4rem);
+        line-height:.92;
+      }
+    }
+
+
+    /* Narrative revision: historical, bipartisan, and local comparison sections */
+    .metric-strip{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      margin-top:30px;
+      border:1px solid var(--line);
+    }
+
+    .metric-box{
+      padding:22px;
+      border-right:1px solid var(--line);
+    }
+
+    .metric-box:last-child{border-right:0}
+
+    .metric-box .big{
+      display:block;
+      font-family:"Arial Narrow","Helvetica Neue Condensed",Arial,sans-serif;
+      font-size:clamp(2.5rem,5vw,4.8rem);
+      font-weight:900;
+      line-height:.85;
+      letter-spacing:-.055em;
+    }
+
+    .metric-box .small{
+      display:block;
+      margin-top:10px;
+      color:var(--muted);
+      font-size:.76rem;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+
+    .local-grid{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:12px;
+      margin-top:30px;
+    }
+
+    .local-card{
+      border:1px solid var(--line);
+      padding:22px;
+    }
+
+    .local-card .local-status{
+      color:var(--accent);
+      font-size:.7rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.1em;
+    }
+
+    .local-card h3{
+      margin-top:10px;
+      font-size:1.35rem;
+      line-height:1;
+    }
+
+    .local-card p{
+      margin:12px 0 0;
+      color:var(--muted);
+      font-size:.9rem;
+    }
+
+    .local-card a{
+      display:inline-block;
+      margin-top:14px;
+      color:var(--accent);
+      font-size:.72rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+    }
+
+    .principle{
+      margin:28px 0;
+      padding:24px;
+      border-top:1px solid var(--line);
+      border-bottom:1px solid var(--line);
+      font-family:"Arial Narrow","Helvetica Neue Condensed",Arial,sans-serif;
+      font-size:clamp(1.8rem,3.2vw,3rem);
+      font-weight:900;
+      line-height:1;
+      letter-spacing:-.035em;
+      text-transform:uppercase;
+    }
+
+    .source-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:24px;
+    }
+
+    .source-links a{
+      border:1px solid var(--line);
+      padding:10px 12px;
+      color:var(--muted);
+      font-size:.7rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.07em;
+    }
+
+    .source-links a:hover,
+    .source-links a:focus{color:var(--paper);border-color:var(--paper)}
+
+    @media (max-width:800px){
+      .metric-strip,
+      .local-grid{grid-template-columns:1fr}
+      .metric-box{border-right:0;border-bottom:1px solid var(--line)}
+      .metric-box:last-child{border-bottom:0}
+    }
+
+  
+    /* Hero layout guard: keep the headline inside its column on desktop-height displays. */
+    @media (min-width:801px){
+      .hero-grid{
+        grid-template-columns:minmax(0,1fr) 360px;
+        gap:42px;
+        align-items:center;
+        padding:54px 0;
+      }
+
+      .hero-grid > *{
+        min-width:0;
+      }
+
+      h1{
+        font-size:clamp(4rem,6.2vw,5.9rem);
+        max-width:8.6ch;
+      }
+
+      .hero-side{
+        align-self:center;
+      }
+
+      .camera-frame{
+        min-height:380px;
+      }
+
+      .evidence-number{
+        font-size:clamp(3.4rem,5vw,5.4rem);
+      }
+
+      .evidence-word{
+        font-size:clamp(2.25rem,3.8vw,3.65rem);
+      }
+    }
+
+    @media (min-width:801px) and (max-height:820px){
+      .hero{
+        min-height:calc(100vh - 64px);
+      }
+
+      .hero-grid{
+        padding:38px 0;
+      }
+
+      h1{
+        font-size:clamp(3.7rem,5.8vw,5.35rem);
+      }
+
+      .hero-copy{
+        margin-top:20px;
+      }
+
+      .cta-row{
+        margin-top:22px;
+      }
+
+      .camera-frame{
+        min-height:340px;
+      }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">Granite Falls + Flock</a>
+    <nav class="navlinks" aria-label="Primary navigation">
+      <a href="#system">System</a>
+      <a href="#law">Law</a>
+      <a href="#retention">7 days</a>
+      <a href="#pace">Pace</a>
+      <a href="#nearby">Nearby</a>
+      <a href="#school">School</a>
+      <a href="#records">Records</a>
+      <a href="#renewal">Vote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Updated August 2026 • Granite Falls, Washington</div>
+        <h1>How much should government remember?</h1>
+        <p class="hero-copy">
+          Granite Falls has seven Flock Safety automated license plate readers. Washington now places new limits on how ALPR systems may be used, retained, shared and audited. <strong>The question for Granite Falls is broader: whether a continuously searchable record of ordinary vehicle movements should remain part of local policing as the platform behind those cameras continues to evolve.</strong>
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="#law">What changed</a>
+          <a class="btn secondary" href="#records">Read the records</a>
+        </div>
+      </div>
+
+      <div class="hero-side">
+        <div class="camera-frame evidence-panel" aria-label="Key record summary">
+          <div class="evidence-number">7</div>
+          <div class="evidence-word">CAMERAS.<br>ONE QUESTION.</div>
+          <div class="evidence-rule"></div>
+          <div class="evidence-small">CURRENT LAW SETS LIMITS.<br>RENEWAL IS STILL A LOCAL CHOICE.</div>
+          <div class="camera-note">Independent public-information project</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="facts">
+    <div class="fact">
+      <span class="num">7</span>
+      <span class="label">Falcon cameras documented in the Granite Falls deployment</span>
+    </div>
+    <div class="fact">
+      <span class="num">21</span>
+      <span class="label">Days generally permitted under Washington's 2026 ALPR retention law</span>
+    </div>
+    <div class="fact">
+      <span class="num">7</span>
+      <span class="label">Days Flock now recommends as its default ALPR retention period</span>
+    </div>
+  </div>
+
+  <section id="system">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">01 / What Granite Falls built</div>
+        <h2>Seven cameras. A networked platform.</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          Granite Falls contracted for <strong>seven Falcon cameras and FlockOS</strong>. Flock reported all seven deployment locations live by April 1, 2025. The cameras are endpoints of a networked system: captured plate and vehicle data can be searched through FlockOS and, where current law and policy permit, compared against other law-enforcement data.
+        </p>
+
+        <div class="timeline">
+          <div class="timeline-row">
+            <div class="timeline-date">Oct. 17, 2024</div>
+            <div><strong>Agreement executed</strong><p>Seven Falcon cameras and the FlockOS platform appear in the executed order.</p></div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-date">Nov. 25, 2024</div>
+            <div><strong>ROW permit approved</strong><p>The original City right-of-way permit package describes six installations.</p></div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-date">Feb.–Mar. 2025</div>
+            <div><strong>Deployment adjusted</strong><p>Locations changed during implementation as permitting, solar exposure and right-of-way issues were resolved.</p></div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-date">Mar. 31, 2025</div>
+            <div><strong>Final installation completed</strong><p>Flock's deployment records show the remaining installation completed before the system reached full deployment.</p></div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-date">Apr. 1, 2025</div>
+            <div><strong>Seven of seven live</strong><p>Flock's deployment tracker reported seven total locations and seven LIVE.</p></div>
+          </div>
+        </div>
+
+        <div class="cap-list">
+          <div class="cap-row"><span>Time & location based search</span><span>Contracted FlockOS capability</span></div>
+          <div class="cap-row"><span>License plate lookup</span><span>Contracted FlockOS capability</span></div>
+          <div class="cap-row"><span>Vehicle characteristic search</span><span>Flock calls this “Vehicle Fingerprint”</span></div>
+          <div class="cap-row"><span>State / nationwide network lookup</span><span>Capability listed in the purchased platform</span></div>
+          <div class="cap-row"><span>Custom hot lists & real-time alerts</span><span>Capability listed in the purchased platform</span></div>
+        </div>
+
+        <p class="fineprint" style="margin-top:20px">
+          Contract capability is not the same thing as current authorized use. Washington law and current SCSO policy now restrict how ALPR systems may be used and shared.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="law">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">02 / The law caught up</div>
+        <h2>For now.</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          Washington enacted ESSB 6002 in 2026 after ALPR systems had already spread across the state. The law created limits on retention, purposes, sharing, sensitive locations, audit trails and traffic stops. At the August 19 Granite Falls briefing, SCSO represented that the program had been brought into compliance with the new statute. This site therefore <strong>does not allege that Granite Falls is currently using the old 30-day retention setting.</strong>
+        </p>
+
+        <div class="policy-list">
+          <div class="policy-row"><b>Retention</b><span>ALPR data generally may not be retained longer than 21 days, subject to statutory exceptions.</span></div>
+          <div class="policy-row"><b>Search purposes</b><span>The statute limits law-enforcement use to specified public-safety and investigative purposes.</span></div>
+          <div class="policy-row"><b>Positive match</b><span>An ALPR match by itself does not create reasonable suspicion for a vehicle stop; verification or independent reasonable suspicion is required.</span></div>
+          <div class="policy-row"><b>Sharing</b><span>Direct access is restricted to authorized Washington state or local agencies, with vendor controls required against unauthorized access.</span></div>
+          <div class="policy-row"><b>Audit trail</b><span>Agencies must log access, queries, purposes, case/call information where applicable, exports, downloads and sharing.</span></div>
+          <div class="policy-row"><b>Annual audit</b><span>Agencies must review system use and compliance with retention, purging and sharing requirements at least annually.</span></div>
+        </div>
+
+        <div class="records">
+          <a class="record" href="docs/washington-essb-6002.pdf" target="_blank" rel="noopener">
+            <div><h3>Washington ESSB 6002 — 2026 ALPR law</h3><p>Read the enacted statutory text rather than a summary.</p></div>
+            <span class="link">Open source PDF</span>
+          </a>
+          <a class="record" href="https://transparency.flocksafety.com/snohomish-county-wa-so-" target="_blank" rel="noopener">
+            <div><h3>SCSO Flock transparency portal</h3><p>The Sheriff's current portal reports 21-day retention and publishes current system-use information. County-level usage figures are not Granite Falls-specific.</p></div>
+            <span class="link">Open portal</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="retention">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">03 / Retention</div>
+        <h2>Why keep 21 days?</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          The 2024 Granite Falls contract used Flock's then-standard <strong>30-day</strong> retention language. Washington later imposed a general <strong>21-day</strong> maximum. Then, on August 13, 2026, Flock announced a new <strong>7-day recommended/default retention period</strong>, saying its analysis showed that more than 90% of searches without a complete plate occur within one week.
+        </p>
+
+        <div class="compare-grid">
+          <div class="compare-card">
+            <h3>Washington permits</h3>
+            <p>Up to 21 days for ordinary ALPR data, subject to the statute's listed exceptions.</p>
+          </div>
+          <div class="compare-card">
+            <h3>Flock recommends</h3>
+            <p>Seven days by default, with evidence preserved when an active investigation and the law require it.</p>
+          </div>
+        </div>
+
+        <div class="principle">Compliance explains why 21 days is allowed. It does not explain why Granite Falls needs 21 days.</div>
+
+        <p>
+          If seven days meets Flock's own stated operational need for the overwhelming majority of searches, keeping three weeks of routine travel records deserves a separate local justification. <strong>The burden should be to explain the additional retention, not to assume it simply because state law permits it.</strong>
+        </p>
+
+        <div class="records">
+          <a class="record" href="https://www.flocksafety.com/blog/flock-guardrails-address-lpr-privacy-concerns-and-police-transparency" target="_blank" rel="noopener">
+            <div><h3>Flock — August 2026 guardrail changes</h3><p>Flock's own announcement reducing its recommended/default retention from 30 days to seven days.</p></div>
+            <span class="link">Read Flock source</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pace">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">04 / Regulatory lag</div>
+        <h2>Law moves slower than software.</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          A statute is written at a point in time. A software platform is not. Flock can change defaults, add safeguards, introduce new search tools, connect additional sensors, alter sharing controls and launch new products without replacing the pole already standing beside the road.
+        </p>
+
+        <p>
+          That does not mean Flock is evading Washington law. It means regulation starts from a disadvantage: <strong>the capability usually exists before lawmakers and courts have enough experience with it to draw durable boundaries.</strong> Product development is continuous; legislation and litigation are not.
+        </p>
+
+        <p>
+          That matters because Granite Falls is not only deciding whether to keep seven pieces of hardware. It is deciding whether to remain connected to an evolving private surveillance platform whose future capabilities can change without a new pole, a new road permit or the same level of public debate that accompanied the original deployment.
+        </p>
+
+        <div class="timeline">
+          <div class="timeline-row">
+            <div class="timeline-date">June 2026</div>
+            <div><strong>Chatrie v. United States</strong><p>The U.S. Supreme Court held that police conducted a Fourth Amendment search when they obtained Okello Chatrie's cell-phone location history from Google through a geofence process. The case reached the Court years after geofence warrants had already become an investigative tool, illustrating how constitutional rules can develop after location-surveillance technology is already in use.</p></div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-date">2026</div>
+            <div><strong>Washington ESSB 6002</strong><p>Washington imposed statewide ALPR rules governing retention, use, sharing, sensitive locations and auditing after networked ALPR systems had already been deployed across the state.</p></div>
+          </div>
+        </div>
+
+        <p style="margin-top:24px">
+          Neither example proves that Granite Falls' Flock system is unlawful. They show why <strong>"we comply with today's law" is not a complete answer to a technology whose capabilities and legal boundaries are still developing.</strong>
+        </p>
+
+        <div class="source-links">
+          <a href="https://www.supremecourt.gov/opinions/25pdf/25-112_0am4.pdf" target="_blank" rel="noopener">U.S. Supreme Court — Chatrie v. United States</a>
+          <a href="docs/washington-essb-6002.pdf" target="_blank" rel="noopener">Washington ESSB 6002</a>
+          <a href="https://www.flocksafety.com/" target="_blank" rel="noopener">Flock product platform</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="bipartisan">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">05 / A bipartisan principle</div>
+        <h2>Limiting government power is not partisan.</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          People can disagree sharply about policing, immigration, firearms, reproductive rights and federal power while agreeing on a simpler principle: <strong>government surveillance authority should have defined limits that do not depend on trusting every future official who inherits the system.</strong>
+        </p>
+
+        <div class="metric-strip">
+          <div class="metric-box"><span class="big">39–10</span><span class="small">Washington Senate vote on ESSB 6002</span></div>
+          <div class="metric-box"><span class="big">84–10</span><span class="small">Washington House vote on ESSB 6002</span></div>
+        </div>
+
+        <p style="margin-top:26px">
+          The Legislature's overwhelming vote does not prove that every Washingtonian agrees on Flock. It does show broad political recognition that location-surveillance technology requires guardrails. The remaining local question is whether Granite Falls should merely stay inside those guardrails or choose not to maintain the system at all.
+        </p>
+
+        <div class="principle">You do not have to distrust police to limit government power.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nearby">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">06 / Nearby governments</div>
+        <h2>Other councils have made a different choice.</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          Granite Falls is not being asked to take an unprecedented step. Municipalities in <strong>Snohomish and Skagit counties</strong> have already cancelled, shut down or held back Flock deployments. Their reasons and legal circumstances differ, but the decisions show that continuation is a policy choice rather than an inevitability.
+        </p>
+
+        <div class="local-grid">
+          <div class="local-card">
+            <div class="local-status">Contract terminated • Feb. 2026</div>
+            <h3>Lynnwood</h3>
+            <p>City Council voted 7–0 to terminate the Flock contract after the system had already been active and then paused.</p>
+            <a href="https://www.heraldnet.com/breakingnews/lynnwood-becomes-one-of-the-1st-in-the-state-to-terminate-flock-contract/" target="_blank" rel="noopener">Read local reporting</a>
+          </div>
+
+          <div class="local-card">
+            <div class="local-status">Contract terminated • June 2026</div>
+            <h3>Edmonds</h3>
+            <p>After a prior pause, the City Council unanimously authorized termination of its Flock contract on June 9.</p>
+            <a href="https://deflock.snohomi.sh/victories/" target="_blank" rel="noopener">See sourced county record</a>
+          </div>
+
+          <div class="local-card">
+            <div class="local-status">Cancelled before installation • Dec. 2025</div>
+            <h3>Mountlake Terrace</h3>
+            <p>The Council unanimously reversed an approved Flock contract before cameras were installed.</p>
+            <a href="https://deflock.snohomi.sh/victories/" target="_blank" rel="noopener">See sourced county record</a>
+          </div>
+
+          <div class="local-card">
+            <div class="local-status">Cameras ordered off • June 2026</div>
+            <h3>Mount Vernon</h3>
+            <p>In Skagit County, the City Council voted 4–1 on June 24 to turn off the City's six Flock cameras after months of public debate.</p>
+            <a href="https://www.cascadiadaily.com/2026/jul/08/mount-vernon-council-opts-not-to-censure-mayor/" target="_blank" rel="noopener">Read Cascadia Daily</a>
+          </div>
+
+          <div class="local-card">
+            <div class="local-status">Deployment remains on hold • May 2026</div>
+            <h3>Snohomish</h3>
+            <p>The City bought Flock cameras but had not installed them; councilmembers directed the City to continue holding off while awaiting further state guidance.</p>
+            <a href="https://www.snoho.com/news/2026/may/13/snohomish-city-council-says-hold-off-on-introducing-flock-cameras/" target="_blank" rel="noopener">Read Snohomish County Tribune</a>
+          </div>
+        </div>
+
+        <p class="fineprint" style="margin-top:18px">
+          Statuses are dated because pauses can be reversed and contracts can change. This section intentionally distinguishes termination, shutdown and delayed deployment rather than treating them as the same action.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="school">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">07 / The school-area question</div>
+        <h2>Camera #07 deserves an answer.</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          City and Flock location materials identify <strong>camera #07 as the eastbound 100th St NE / Penny Ave installation</strong> in the Granite Falls High School area. The City's ROW permit packet includes the location sheet for that camera.
+        </p>
+
+        <p>
+          ESSB 6002 makes it unlawful for an agency to collect ALPR data on the premises, immediate surroundings, or access to or from elementary and secondary schools and other listed sensitive facilities. The question therefore turns on more than the pole's street address: it depends on <strong>where #07 is pointed and what roadway or school-access traffic its collection area actually captures.</strong>
+        </p>
+
+        <p>
+          The City's permit packet already documents the camera's placement and eastbound collection geometry, and that material is reproduced in the records linked below. The remaining question is whether the documented collection area falls within ESSB 6002's prohibition on collecting ALPR data on the premises, immediate surroundings, or access to or from a secondary school.
+        </p>
+
+        <div class="records">
+          <a class="record" href="docs/row-permit-2024-019.pdf" target="_blank" rel="noopener">
+            <div><h3>Granite Falls ROW permit and location plans</h3><p>The permit packet includes the #07 eastbound 100th St NE / Penny Ave location sheet.</p></div>
+            <span class="link">Open permit</span>
+          </a>
+          <a class="record" href="docs/washington-essb-6002.pdf" target="_blank" rel="noopener">
+            <div><h3>ESSB 6002 — sensitive-location language</h3><p>Read the enacted restriction governing collection around schools and other protected facilities.</p></div>
+            <span class="link">Open law</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="utility">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">08 / What the numbers show</div>
+        <h2>Correlation is not causation.</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          SCSO's August 19 presentation pointed to Granite Falls' low crime during the Flock period as evidence of the system's value. But the City's own police reports show that several of the same trends were already underway before the cameras came online.
+        </p>
+
+        <p>
+          In the City's January 2025 annual report, SCSO reported that <strong>auto theft had already declined during 2024</strong> and noted that Granite Falls' most prolific vehicle thief had been convicted and sent to prison for seven years. The same report said theft of motor-vehicle parts was continuing to decline and attributed that trend to changes in state law. Flock was still described in future tense: the cameras were expected to come online in February 2025 and were anticipated to help further reduce vehicle theft.
+        </p>
+
+        <p>
+          The January 2025 monthly report makes the timing even clearer. Before Flock installation began on February 13, deputies recorded <strong>451 calls for service — about 100 fewer than the prior January and lower than January 2023</strong>. That month Granite Falls recorded one auto-theft case and recovered three stolen vehicles without the Flock network yet operating.
+        </p>
+
+        <p>
+          SCSO's own 2025 annual summary later described auto theft as a continuing downward trend supported by <strong>multiple factors</strong>, including legislative changes, ALPR technology and community outreach. That is a materially narrower claim than treating low crime during the Flock period as proof that Flock caused the decline.
+        </p>
+
+        <p>
+          Flock can produce useful leads in individual investigations. The local record supports that. What the record does <strong>not</strong> establish is that Granite Falls' broader crime trends were caused by seven ALPR cameras. Those are different claims, and they should not be presented as interchangeable.
+        </p>
+
+        <div class="records">
+          <a class="record" href="https://cms3.revize.com/revize/cityofgranitefalls/Documents/Government/Agenda%20%26%20Minutes/City%20Council/2025/Packets/01-15-2025%20Meeting.pdf" target="_blank" rel="noopener">
+            <div><h3>Granite Falls / SCSO annual report — January 15, 2025</h3><p>Before Flock deployment, SCSO reported declining auto theft, the incarceration of a prolific vehicle thief, and other crime trends with independent explanations.</p></div>
+            <span class="link">Open City packet</span>
+          </a>
+          <a class="record" href="https://cms3.revize.com/revize/cityofgranitefalls/Documents/Government/Agenda%20%26%20Minutes/City%20Council/2025/Packets/02-19-2025%20Meeting.pdf" target="_blank" rel="noopener">
+            <div><h3>Granite Falls / SCSO report — February 19, 2025</h3><p>The report states that January 2025 calls for service were already substantially below the prior year before Flock installation began on February 13.</p></div>
+            <span class="link">Open City packet</span>
+          </a>
+          <a class="record" href="https://storymaps.arcgis.com/stories/48d6fa97fc40481999deed7d55e42abe" target="_blank" rel="noopener">
+            <div><h3>SCSO 2025 annual summary</h3><p>SCSO's own later summary describes the auto-theft decline as supported by legislative changes, ALPR technology and community outreach rather than by Flock alone.</p></div>
+            <span class="link">Open SCSO report</span>
+          </a>
+          <a class="record" href="https://www.ci.granite-falls.wa.us/government/agendas_minutes/city_council_agendas_minutes.php" target="_blank" rel="noopener">
+            <div><h3>August 19, 2026 Council materials</h3><p>Official City index for the SCSO Flock / SB 6002 presentation and meeting materials.</p></div>
+            <span class="link">Open official page</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="records">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">09 / The paper trail</div>
+        <h2>Read it yourself.</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          The argument on this site is intentionally separated from the underlying record. Core contract, permit, payment and statutory documents remain available below so factual claims can be checked independently.
+        </p>
+
+        <div class="records">
+          <a class="record" href="docs/washington-essb-6002.pdf" target="_blank" rel="noopener">
+            <div><h3>Washington ESSB 6002 — 2026 ALPR law</h3><p>Authorized uses, restricted locations, retention, sharing, audits, penalties and civil remedies.</p></div>
+            <span class="link">Open source PDF</span>
+          </a>
+
+          <a class="record" href="docs/executed-master-services-agreement.pdf" target="_blank" rel="noopener">
+            <div><h3>Executed Flock Master Services Agreement</h3><p>Granite Falls contract and Order Form obtained through public records.</p></div>
+            <span class="link">Open source PDF</span>
+          </a>
+
+          <a class="record" href="docs/row-permit-2024-019.pdf" target="_blank" rel="noopener">
+            <div><h3>Granite Falls Right-of-Way Permit</h3><p>Original permit application and camera-location planning materials.</p></div>
+            <span class="link">Open source PDF</span>
+          </a>
+
+          <a class="record" href="docs/flock-purchase-payment-records.pdf" target="_blank" rel="noopener">
+            <div><h3>Invoice & Payment Records</h3><p>Purchase and payment records. Sensitive banking information is redacted from the public copy.</p></div>
+            <span class="link">Open source PDF</span>
+          </a>
+
+          <a class="record" href="https://www.snohomishcountywa.gov/342/Sheriff-Public-Records" target="_blank" rel="noopener">
+            <div><h3>Current Snohomish County ALPR policy</h3><p>Official Sheriff's Office page linking the current ALPR policy and law-enforcement policy manual.</p></div>
+            <span class="link">Open official source</span>
+          </a>
+
+          <a class="record" href="https://www.ci.granite-falls.wa.us/government/agendas_minutes/city_council_agendas_minutes.php" target="_blank" rel="noopener">
+            <div><h3>Granite Falls Council packets & minutes</h3><p>Official City index including the August 19, 2026 Flock / SB 6002 review materials.</p></div>
+            <span class="link">Open official source</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="method">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">10 / Sources & method</div>
+        <h2>Claims should be checkable.</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          Local factual claims are tied to City public records, executed contracts, official SCSO material or Washington law. External sources are identified when the site discusses judicial precedent, vendor changes, nearby municipal decisions or broader policy concerns. The site distinguishes between <strong>documented fact, an agency's representation, and the argument drawn from those facts.</strong>
+        </p>
+
+        <div class="source-index">
+          <a href="docs/executed-master-services-agreement.pdf" target="_blank" rel="noopener"><div><b>Contract</b><span>Executed Flock Master Services Agreement and Order Form →</span></div></a>
+          <a href="docs/row-permit-2024-019.pdf" target="_blank" rel="noopener"><div><b>Permit</b><span>ROW Permit 2024-019 and location plans →</span></div></a>
+          <a href="docs/flock-purchase-payment-records.pdf" target="_blank" rel="noopener"><div><b>Payment</b><span>Flock purchase and payment records →</span></div></a>
+          <a href="docs/washington-essb-6002.pdf" target="_blank" rel="noopener"><div><b>State law</b><span>Engrossed Substitute Senate Bill 6002, 2026 →</span></div></a>
+          <a href="https://transparency.flocksafety.com/snohomish-county-wa-so-" target="_blank" rel="noopener"><div><b>SCSO portal</b><span>Current Flock transparency information published for the Sheriff's Office →</span></div></a>
+          <a href="https://www.flocksafety.com/blog/flock-guardrails-address-lpr-privacy-concerns-and-police-transparency" target="_blank" rel="noopener"><div><b>7-day default</b><span>Flock's August 2026 announcement on retention and new guardrails →</span></div></a>
+          <a href="https://www.supremecourt.gov/opinions/25pdf/25-112_0am4.pdf" target="_blank" rel="noopener"><div><b>Chatrie</b><span>U.S. Supreme Court — 2026 decision on government acquisition of cell-phone location data →</span></div></a>
+          <a href="https://deflock.snohomi.sh/victories/" target="_blank" rel="noopener"><div><b>Nearby</b><span>Sourced record of Snohomish County Flock cancellations →</span></div></a>
+          <a href="https://www.cascadiadaily.com/2026/jul/08/mount-vernon-council-opts-not-to-censure-mayor/" target="_blank" rel="noopener"><div><b>Skagit</b><span>Cascadia Daily — Mount Vernon camera shutdown vote →</span></div></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="action" id="renewal">
+    <div class="wrap action-box">
+      <div>
+        <div class="eyebrow">The operative decision</div>
+        <h2>Do not renew by inertia.</h2>
+        <p>
+          Granite Falls does not need to prove that SCSO is breaking the law before deciding not to renew Flock. The Council's job is broader than checking a compliance box: it has to decide whether the investigative value is worth maintaining a system that routinely records ordinary vehicle movements and depends on a private platform whose capabilities will continue to change.
+        </p>
+        <p>
+          While the system remains active, Granite Falls should <strong>move to Flock's seven-day retention recommendation unless a shorter lawful period is chosen, publicly resolve the #07 school-area question, publish meaningful audit information, and put continuation of the contract on a public council agenda.</strong>
+        </p>
+        <p>
+          This site's position is straightforward: <strong>Granite Falls should not renew the Flock contract.</strong> If the Council disagrees, continuation should occur only after an open debate and a recorded vote in which the public-safety benefit and the surveillance cost are both acknowledged.
+        </p>
+      </div>
+
+      <div class="cta-row">
+        <a class="btn primary" href="#nearby">See nearby decisions</a>
+        <a class="btn secondary" href="#records">Read the records</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="comment">
+    <div class="wrap section-grid">
+      <div>
+        <div class="eyebrow">11 / Public comment</div>
+        <h2>Use the official channel.</h2>
+      </div>
+
+      <div class="section-copy">
+        <p>
+          This site does not collect, store or relay public comments. Written comments should be sent through the City's published government channels, where the sender can verify what was submitted and retain a copy.
+        </p>
+
+        <div class="records">
+          <a class="record" href="https://www.ci.granite-falls.wa.us/government/city_council.php" target="_blank" rel="noopener">
+            <div><h3>City Council contacts</h3><p>Official City page listing councilmembers and government contact information.</p></div>
+            <span class="link">Open page</span>
+          </a>
+
+          <a class="record" href="https://www.ci.granite-falls.wa.us/government/agendas_minutes/city_council_agendas_minutes.php" target="_blank" rel="noopener">
+            <div><h3>Current agendas and meeting packets</h3><p>Check meeting dates, agenda items and current public-comment instructions.</p></div>
+            <span class="link">Open agendas</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Independent public-information project • Granite Falls, Washington
+  </div>
+</footer>
+
+</body>
+</html>
