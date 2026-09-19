@@ -1,13 +1,14 @@
-GRANITE FALLS FLOCK — GITHUB BUILD
+DEFLOCK GRANITE FALLS — REVIEW BUILD
 
-Included public source records:
-- Original executed Flock Master Services Agreement / Order Form
-- Original Granite Falls ROW Permit 2024-019 and plan set
-- Original Flock purchase/payment records
-- Washington ESSB 6002
+Open index.html first.
 
-Excluded:
-- Wright PRA five-day letter
-- Public-records-request correspondence containing requester personal information
+This package is a review copy only. It does not modify deflockgranitefalls.com.
+CSS and JavaScript are embedded directly in each HTML page so the files render correctly when previewed individually. Existing evidence images and document links load from the live deflockgranitefalls.com asset paths.
 
-No redactions or edits were made to the included source PDFs.
+Pages changed for this review:
+- index.html
+- timeline.html
+- school-camera.html
+- action.html
+
+Other pages are included so navigation works normally.
