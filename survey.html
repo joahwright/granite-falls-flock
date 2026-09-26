@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>.review-asset-fallback{background:#e5dfd2;min-height:80px}</style>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Granite Falls community survey and optional petition regarding the City's use of automated license plate readers." name="description"/>
+  <title>Community Survey + Petition | Get the Flock Out</title>
+
+  <style>
+    :root{--paper:#f1eee4;--paper2:#e5dfd2;--ink:#11191c;--muted:#555956;--red:#cf302b;--black:#071014;--rule:#aaa59a;--soft:#ded9cc;--max:1220px}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;background:var(--paper)}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.42}
+    a{color:inherit;text-decoration:none}
+    img{display:block;max-width:100%}
+    .wrap{width:min(calc(100% - 42px),var(--max));margin:0 auto}
+
+    header{position:sticky;top:0;z-index:50;background:rgba(241,238,228,.97);border-bottom:1px solid #d0cbc0;backdrop-filter:blur(12px)}
+    .nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{font-family:"Arial Narrow","Helvetica Neue Condensed",Arial,sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:-.025em;font-size:1.2rem;white-space:nowrap}
+    .brand span,.red{color:var(--red)}
+    .navlinks{display:flex;align-items:center;gap:21px;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.035em;overflow-x:auto;scrollbar-width:none}
+    .navlinks::-webkit-scrollbar{display:none}
+    .navlinks a{white-space:nowrap;padding:29px 0 25px;border-bottom:3px solid transparent}
+    .navlinks a:hover,.navlinks a:focus,.navlinks a.active{color:var(--red);border-color:var(--red)}
+    .navlinks .take{border:1.5px solid var(--red);padding:11px 15px;color:var(--red);margin-left:3px}
+    .navlinks .take:hover{background:var(--red);color:white}
+
+    h1,h2,h3{font-family:"Arial Narrow","Helvetica Neue Condensed",Arial,sans-serif;text-transform:uppercase;margin:0;font-weight:900;letter-spacing:-.045em;line-height:.92}
+    h1{font-size:clamp(3.7rem,7vw,6.7rem)}
+    h2{font-size:clamp(2.6rem,4.5vw,4.4rem)}
+    h3{font-size:1.25rem;line-height:1.02}
+    .kicker,.section-sub,.eyebrow{font-size:.72rem;text-transform:uppercase;letter-spacing:.13em;font-weight:900;color:var(--red);margin-bottom:16px}
+
+    .pagehero{padding:70px 0 58px;border-bottom:1px solid var(--rule)}
+    .pagehero h1{max-width:10ch}
+    .pagehero p{max-width:780px;font-size:1.08rem;color:#363b39;margin:24px 0 0}
+    .redline{height:2px;background:var(--red);width:min(100%,530px);margin-top:30px}
+
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,430px);gap:38px;align-items:center}
+    .hero-art{position:relative;min-height:430px;display:grid;place-items:center;overflow:hidden}
+    .hero-art:before,.hero-art:after{content:"";position:absolute;border-radius:50%}
+    .hero-art:before{width:300px;height:300px;background:var(--red);left:38px;top:54px}
+    .hero-art:after{width:235px;height:235px;border:3px solid var(--ink);right:28px;bottom:44px}
+    .hero-art img{position:relative;z-index:2;width:auto;max-height:420px;transform:translate(5px,2px)}
+
+    .section{padding:70px 0;border-bottom:1px solid var(--rule)}
+    .section-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:54px;align-items:start}
+    .copy{max-width:780px}
+    .copy p{margin:0 0 16px;color:#333836}
+    .copy strong{color:var(--ink)}
+    .quote-callout{border-left:5px solid var(--red);padding:18px 20px;background:#e8e2d6;margin:22px 0}
+    .quote-callout b{display:block;text-transform:uppercase;font-size:.77rem;margin-bottom:8px}
+    .quote-callout p{margin:0;color:#2d3230}
+
+    .form-section{padding:0 0 70px}
+    .form-header{background:var(--black);color:#fff;border-top:5px solid var(--red);padding:30px 0}
+    .form-header-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:44px;align-items:start}
+    .form-header .label{color:var(--red);font-size:.72rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+    .form-header h2{font-size:clamp(2.5rem,4vw,4rem);margin-top:10px}
+    .form-header p{margin:0;color:#d9dcdc;max-width:760px}
+    .form-shell{width:min(calc(100% - 42px),1000px);margin:34px auto 0;border:1px solid var(--rule);background:#fff;box-shadow:0 12px 30px rgba(7,16,20,.08)}
+    .form-topline{height:5px;background:var(--red)}
+    .form-wrap{width:100%;overflow:hidden;background:#fff}
+    .form-wrap iframe{display:block;width:100%;min-height:2650px;border:0;background:#fff}
+    .form-fallback{padding:16px 18px;border-top:1px solid #d6d1c7;background:var(--paper2);font-size:.82rem;color:#4f5351}
+    .form-fallback a{color:var(--red);font-weight:900;text-transform:uppercase;border-bottom:1px solid var(--red)}
+
+    footer{padding:26px 0 38px;font-size:.69rem;text-transform:uppercase;letter-spacing:.05em}
+    .footer-grid{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .footer-grid a{color:var(--red);font-weight:900}
+
+    @media(max-width:980px){
+      .nav{align-items:flex-start;flex-direction:column;padding:13px 0 0}
+      .navlinks{width:100%;gap:17px}
+      .navlinks a{padding:10px 0 13px}
+      .navlinks .take{margin-left:0;padding:8px 11px}
+      .hero-grid,.section-grid,.form-header-grid{grid-template-columns:1fr;gap:28px}
+    }
+
+    @media(max-width:760px){
+      .wrap{width:min(calc(100% - 26px),var(--max))}
+      .pagehero{padding:46px 0 36px}
+      .hero-art{min-height:350px}
+      .hero-art:before{left:calc(50% - 150px)}
+      .hero-art:after{right:calc(50% - 145px)}
+      .section{padding:52px 0}
+      .form-shell{width:100%;margin-top:22px;border-left:0;border-right:0}
+      .form-wrap iframe{min-height:2900px}
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html">Get the Flock Out <span>| Granite Falls</span></a>
+      <nav aria-label="Primary" class="navlinks">
+        <a href="index.html">Home</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="evidence.html">Evidence</a>
+        <a href="records.html">Records</a>
+        <a href="reporting.html">Legal + policy</a>
+        <a href="school-camera.html">School camera</a>
+        <a href="about.html">About</a>
+        <a class="active take" href="action.html">Take action</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="pagehero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="kicker">Granite Falls community input</div>
+          <h1>Take the survey. <span class="red">Sign if you agree.</span></h1>
+          <p>
+            Granite Falls residents are invited to share their views on the City's use of automated
+            license plate readers. The survey is open to supporters, opponents and undecided residents.
+            The petition is optional and is counted separately from survey responses.
+          </p>
+          <div class="redline"></div>
+        </div>
+
+        <div aria-hidden="true" class="hero-art">
+          <img
+            alt=""
+            onerror="this.style.visibility='hidden';this.parentElement.classList.add('review-asset-fallback')"
+            src="https://deflockgranitefalls.com/assets/flock-camera.png"/>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap section-grid">
+        <div>
+          <div class="section-sub">How it works</div>
+          <h2>Survey first. Petition second.</h2>
+        </div>
+
+        <div class="copy">
+          <p>
+            The first portion measures community opinion. You do not have to support this campaign
+            or sign the petition to complete the survey.
+          </p>
+          <p>
+            Residents who support ending Granite Falls' Flock Safety ALPR program can then choose
+            to add their name to the petition presented at the end.
+          </p>
+
+          <div class="quote-callout">
+            <b>Responses are counted separately</b>
+            <p>
+              Survey responses will be analyzed as community feedback. Petition signatures will be
+              counted separately and may be presented to the Granite Falls City Council.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section" id="survey">
+      <div class="form-header">
+        <div class="wrap form-header-grid">
+          <div>
+            <div class="label">Community survey + optional petition</div>
+            <h2>Make your position part of the record.</h2>
+          </div>
+          <div>
+            <p>
+              Complete the survey below. If the embedded form does not load correctly, use the direct
+              form link beneath it.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-shell">
+        <div class="form-topline"></div>
+        <div class="form-wrap">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfsP04YBe2F063dc7XItin_Bg7C_ppnKg_JBggzpJOQj9cKjg/viewform?embedded=true"
+            title="Granite Falls ALPR Community Survey and Petition"
+            width="100%"
+            height="2650"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            loading="lazy">
+            Loading…
+          </iframe>
+        </div>
+
+        <div class="form-fallback">
+          Form not displaying correctly?
+          <a href="https://forms.gle/qpr7rc2XYScu4ysYA" target="_blank" rel="noopener noreferrer">
+            Open the survey directly
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <span>Independent public-information project · Granite Falls, Washington</span>
+      <a href="about.html">Sources &amp; methodology</a>
+    </div>
+  </footer>
+</body>
+</html>
